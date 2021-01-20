@@ -1,0 +1,36 @@
+table{
+    border-style:solid;
+}
+th, td{
+    border-style:solid;
+}
+tr.body:nth-of-type(2n+1){
+	background: #efb9c0;
+}
+
+tr.body:nth-of-type(2n){
+	background: #85b0cc;
+}
+
+#outter-content{
+	background-color: #efb9c0;
+	width: 75%;
+	height: 100px;
+	position: relative;
+	top: 20px;
+	left: 0px;
+}
+#inner-content{
+	background-color: #85b0cc;
+	width: 75%;
+	height: 50%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#text, #number, #password{
+	position: absolute;
+	left: 7%;
+}
